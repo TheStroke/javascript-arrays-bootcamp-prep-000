@@ -23,3 +23,6 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   //takes in array, removes first element and returns the mutated form
 }
 
+function removeElementFromBeginningOfArray() {
+  //access an array, remove the first element, and return the new array without altering the first
+}
