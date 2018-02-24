@@ -12,11 +12,11 @@ function addElementToEndOfArray (array, entry) {
 }
 
 function destructivelyAddElementToEndOfArray (array, entry) {
-  
+  //
 }
 
 function accessElementArray (array, index) {
-  
+  //acces an array with an index and return that value
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
