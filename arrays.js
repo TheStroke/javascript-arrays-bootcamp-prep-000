@@ -26,3 +26,8 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 function removeElementFromBeginningOfArray() {
   //access an array, remove the first element, and return the new array without altering the first
 }
+
+function destructivelyRemoveElementFromEndOfArray() {
+  //access an array, remeove the last element, return the entire mutated original array
+}
+
