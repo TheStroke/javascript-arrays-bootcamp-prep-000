@@ -42,11 +42,13 @@ function removeElementFromBeginningOfArray(array) {
   return array
 }
 
-function destructivelyRemoveElementFromEndOfArray() {
+function destructivelyRemoveElementFromEndOfArray(array) {
   //access an array, remeove the last element, return the entire mutated original array
-  
+  array.pop()
+  return array
 }
 
 function removeElementFromEndOfArray() {
   //access an array, remove the last element, return the new array without mutating the original
+  
 }
