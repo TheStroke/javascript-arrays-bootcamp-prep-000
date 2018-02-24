@@ -44,6 +44,7 @@ function removeElementFromBeginningOfArray(array) {
 
 function destructivelyRemoveElementFromEndOfArray() {
   //access an array, remeove the last element, return the entire mutated original array
+  
 }
 
 function removeElementFromEndOfArray() {
