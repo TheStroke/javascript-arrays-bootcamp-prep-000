@@ -50,5 +50,6 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 
 function removeElementFromEndOfArray(array) {
   //access an array, remove the last element, return the new array without mutating the original
-  
+  array = array.slice(0, array.length - 1)
+  return array
 }
