@@ -9,7 +9,8 @@ function addElementToBeginningOfArray (array, entry) {
 function destructivelyAddElementToBeginningOfArray (array, entry) {
   //accesses an array, adds an element to the beginning, and reurns the new altered array
   
-  
+  array = array.unshift(entry)
+  return array
 }
 
 function addElementToEndOfArray (array, entry) {
