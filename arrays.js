@@ -32,7 +32,8 @@ function accessElementInArray (array, index) {
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   //takes in array, removes first element and returns the mutated form
-  
+  array.shift()
+  return array
 }
 
 function removeElementFromBeginningOfArray() {
