@@ -20,7 +20,9 @@ function addElementToEndOfArray (array, entry) {
 }
 
 function destructivelyAddElementToEndOfArray (array, entry) {
-  //accesses an array, adds an element to the end, and reurns the new altered array
+  //accesses an array, adds an element to the end, and returns the new altered array
+  array = array.push(entry)
+  return array
 }
 
 function accessElementArray (array, index) {
