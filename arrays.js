@@ -31,3 +31,6 @@ function destructivelyRemoveElementFromEndOfArray() {
   //access an array, remeove the last element, return the entire mutated original array
 }
 
+function removeElementFromEndOfArray() {
+  //access an array, remove the last element, return the new array without mutating the original
+}
