@@ -48,7 +48,7 @@ function destructivelyRemoveElementFromEndOfArray(array) {
   return array
 }
 
-function removeElementFromEndOfArray() {
+function removeElementFromEndOfArray(array) {
   //access an array, remove the last element, return the new array without mutating the original
   
 }
