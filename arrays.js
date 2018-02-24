@@ -8,6 +8,8 @@ function addElementToBeginningOfArray (array, entry) {
 
 function destructivelyAddElementToBeginningOfArray (array, entry) {
   //accesses an array, adds an element to the beginning, and reurns the new altered array
+  
+  
 }
 
 function addElementToEndOfArray (array, entry) {
