@@ -15,6 +15,8 @@ function destructivelyAddElementToBeginningOfArray (array, entry) {
 
 function addElementToEndOfArray (array, entry) {
 //accesses an array, adds an element to the end, and returns the new, different array without altering the first  
+  array = [...array, entry]
+  return array
 }
 
 function destructivelyAddElementToEndOfArray (array, entry) {
