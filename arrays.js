@@ -2,8 +2,8 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 function addElementToBeginningOfArray (array, entry) {
   //accesses an array, adds an element to the beginning, and returns the new, different array without altering the first
   
-  var candy = [entry, ...array]
-  return candy
+  array = [entry, ...array]
+  return array
 }
 
 function destructivelyAddElementToBeginningOfArray (array, entry) {
